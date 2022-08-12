@@ -18,8 +18,3 @@ searchInputDropdown.addEventListener('input', () => {
   }
 });
 
-const showOptions = () => {
-  dropdownOptions.forEach((el) => {
-    el.style.display = 'flex';
-  })
-}
